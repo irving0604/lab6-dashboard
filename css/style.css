@@ -26,21 +26,14 @@ body {
 }
 
 /* social media icons */
-#info a {
-  color: lightgray;
-}
-
-#info a:hover {
-  color: white;
-  opacity: 0.3;
-}
+#info a { color: lightgray; }
+#info a:hover { color: white; opacity: 0.3; }
 
 #title {
   font-size: 25px;
   font-family: 'Oswald', sans-serif;
 }
 
-/* social media icons */
 #title span {
   font-size: 14px;
   float: right;
@@ -60,10 +53,6 @@ body {
   text-align: center;
   color: orange;
   font-size: 50px;
-}
-
-#earthquake-chart {
-  top: 20px;
 }
 
 #footer {
@@ -88,22 +77,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.break {
-  position: relative;
-  margin: 0px;
-  padding: 0px;
-}
-
-.dot {
-  display: inline-block;
-  margin-top: 5px;
-  border-radius: 50%;
-  opacity: 0.6;
-}
-
-.dot-label {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-style: italic;
-}
+.break { position: relative; margin: 0; padding: 0; }
+.dot { display: inline-block; margin-top: 5px; border-radius: 50%; opacity: 0.6; }
+.dot-label { position: absolute; top: 0; right: 0; font-style: italic; }
